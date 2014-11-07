@@ -1,4 +1,5 @@
 ActiveAdmin.register Link do
+  permit_params :name, :url
 
 
   # See permitted parameters documentation:
